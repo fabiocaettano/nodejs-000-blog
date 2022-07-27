@@ -34,9 +34,14 @@ header.container{
     margin: auto;
 }
 
+header nav ul {
+    display: flex;
+    font-size: 14px;
+}
+
 header nav ul li {
     list-style: none;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 header nav ul li a {
