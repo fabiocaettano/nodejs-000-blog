@@ -61,7 +61,7 @@ header nav ul li a:hover {
 section.hero p{
     color: rgb(154,142,191);
     font-size: 1.8rem;
-    line-height: 32px;
+    line-height: 3.2rem;
     margin: 10pxopx opx;
 }
 
@@ -114,4 +114,10 @@ h3 {
 
 #form .button {
     margin: 20px 8px 10px;
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
 }
