@@ -56,11 +56,11 @@ header nav ul li a:hover {
     background: rgba(255,255,255,0.15);
 }
 
-section.hero {
+section.cards {
     margin: 80px 0;
 }
 
-section.hero p{
+section.cards p{
     color: rgb(154,142,191);
     font-size: 1.8rem;
     line-height: 3.2rem;
