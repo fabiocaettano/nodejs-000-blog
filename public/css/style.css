@@ -75,7 +75,7 @@ main {
 .cards{
     width: 90%;
     max-width: 980px;
-    margin: 10px 0px 50px 0px;
+    margin: 100px 0px 0px 50px;
 
     display:grid;
     /*grid-template-columns: 310px 310px 310px;*/
