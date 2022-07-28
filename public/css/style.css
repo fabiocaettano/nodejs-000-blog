@@ -92,10 +92,14 @@ h3 {
     transition: all 150ms linear 0s;
 }
 
-.card{
-    display: flex;    
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #7159c1;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;  
 }
-
+  
 .cards{
     width: 90%;
     max-width: 980px;
