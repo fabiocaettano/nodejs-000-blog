@@ -60,6 +60,16 @@ section.cards {
     margin: 80px 0;
 }
 
+section.cards .container {
+    width: 90%;
+    max-width: 980px;
+  
+    margin: auto;
+  
+    display: flex;
+  }
+  
+
 section.cards p{
     color: rgb(154,142,191);
     font-size: 1.8rem;
