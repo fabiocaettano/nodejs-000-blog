@@ -17,7 +17,9 @@ app.use('/css', express.static(path.join(__dirname, 'public/css')))
 app.use('/assets', express.static(path.join(__dirname, 'public/assets')))
 
 app.get('/', (req, res) =>{
-    res.render('home', { mensagem1 : "As melhores tecnologias em programação, direto ao ponto e do jeito certo."});
+    res.render('home', { 
+        title : "Hello World com Nodejs",
+        conteudo : "Subindo um aplicação NodeJs."});
 })
 
 app.listen(port, ()=>{ console.log(`Listening port ${port}`)});
