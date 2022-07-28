@@ -93,7 +93,20 @@ h3 {
 }
 
 .card{
-    display: flex;   
+    display: flex;    
+}
+
+.cards{
+    width: 90%;
+    max-width: 980px;
+    margin:auto;
+
+    display:grid;
+    /*grid-template-columns: 310px 310px 310px;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /*grid-template-columns: repeat(3, minmax(250px, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
 }
 
 
@@ -119,5 +132,16 @@ h3 {
 @media (max-width: 768px){
     html{
         font-size: 50%;
+    }
+}
+
+@media (max-width: 630px){
+    .hero .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .container img{
+        order: -1;
     }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-lt-installed="true">
+<html>
     <head>
         <meta charset = "UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <title>fabioCaetanoDev</title>
     </head>
-    <body class="vsc-initialized">
+    <body>
         <header>
             <div class="container">
                 <div class="menu-section">
@@ -15,33 +15,28 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">Starter</a>
+                                <a href="#">Artigos</a>
                             </li>
                             <li>
-                                <a href="#">Bootcamp</a>
+                                <a href="#">Portfólio</a>
                             </li>
                             <li>
-                                <a href="#">Comunidade</a>
+                                <a href="#">Aplicativos</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>        
-        <section class="hero">
-            <div class="container">
-                <div>
-                    <h2><%= mensagem1 %></h2>
+        <section class="cards">
+            <div class="card">
+                <div class="image"></div>
+                <div class="content">
+                    <p class="title text --medium"><%= mensagem1 %></p>
+                    <div class="info">Hello World com Nodejs!</div>
                 </div>
             </div>
-        </section>
-        <main>
-            <section class="cards">
-                <div class="card"></div>
-            </section>
-        </main>
-        <section id="form"></section>
-        <div class="modal-overlay"></div>
+        </section>        
         <script src="script.js"></script>
         <script type="text/javascript"></script>
     </body>
