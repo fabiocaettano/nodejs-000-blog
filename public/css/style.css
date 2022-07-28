@@ -15,9 +15,7 @@ html {
 html,
 body{
     height: 100vh;
-    font-family: "Source Sans Pro";
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antiaiased;    
+    font-family: "Source Sans Pro";    
 }
 
 body{
@@ -25,7 +23,7 @@ body{
 }
 
 header {
-    background-color: #7159c1;
+    background-color: grey
 }
 
 header.container{
