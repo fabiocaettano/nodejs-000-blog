@@ -109,6 +109,7 @@ main {
     display: flex;
     align-self: end;
     align-items: center;
+    background-color: #D3D3D3;
   }
 
 .text--medium {
