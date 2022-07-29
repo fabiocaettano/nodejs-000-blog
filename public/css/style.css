@@ -110,6 +110,7 @@ main {
     align-self: end;
     align-items: center;
     background-color: #D3D3D3;
+    height: 70px;
   }
 
 .text--medium {
