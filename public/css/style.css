@@ -116,7 +116,7 @@ main {
 .text--medium {
     font-size: 1.6rem;
     line-height: 2.6rem;
-    font-weight: 400;
+    font-weight: 400px;
     color: #ecf0f1;
 }
 
