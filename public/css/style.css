@@ -72,6 +72,10 @@ main {
     margin-bottom: 80px;
 }
 
+.logo content{
+    background-image: url('/public/assets/logo-fabio.png');
+}
+
 .cards{
     width: 90%;
     max-width: 980px;
