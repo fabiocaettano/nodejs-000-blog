@@ -72,6 +72,22 @@ main {
     margin-bottom: 80px;
 }
 
+.logo{
+    width: 90%;
+    max-width: 980px;
+    /*margin: 10px 10px 50px 50px;*/
+    margin: auto;
+    margin-top: 50px;
+
+    display:grid;
+    /*grid-template-columns: 310px 310px 310px;*/
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /*grid-template-columns: repeat(3, minmax(250px, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 5px;
+}
+
+
 .logo .content{
     background-image: url('/public/assets/logo-fabio.png');
 }
