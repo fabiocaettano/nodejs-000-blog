@@ -73,8 +73,14 @@ main {
 }
 
 .logo{
-    background-image:url("./assets/logo-fabio.png");
+    
     background-color: aqua;
+}
+
+img {
+    width: 4.0rem;
+    height: 2.0rem;
+    padding: 2rem 0 0 0;
 }
 
 .cards{
