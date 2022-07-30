@@ -89,7 +89,7 @@ main {
 
 
 .logos{
-    background-image: url('/public/assets/logo-fabio.png');
+    background-image: url("./public/assets/logo-fabio.png");
 }
 
 .cards{
