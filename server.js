@@ -14,10 +14,9 @@ app.use(bodyparser.urlencoded({ extended: true }))
 app.set('view engine', 'ejs');
 
 // load static assets
-//app.use('/css', express.static(path.join(__dirname, 'public/css')))
-//app.use('/assets', express.static(path.join(__dirname, 'public/assets')))
-app.use(express.static(path.join(__dirname, 'public/css')))
-app.use(express.static(path.join(__dirname, 'public/assets')))
+app.use('/css', express.static(path.join(__dirname, 'public/css')))
+app.use('/assets', express.static(path.join(__dirname, 'public/assets')))
+
 
 
 app.get('/', (req, res) =>{
