@@ -15,10 +15,7 @@ html {
 html,
 body{
     height: 100vh;
-    font-family: "Source Sans Pro";    
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-size: 75% 50%;
+    font-family: "Source Sans Pro";        
 }
 
 body{
@@ -73,6 +70,10 @@ h3 {
 
 main {
     margin-bottom: 80px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    max-width: 980px;
+    height: auto;
 }
 
 img {
