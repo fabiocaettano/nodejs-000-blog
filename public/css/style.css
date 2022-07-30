@@ -88,8 +88,9 @@ main {
 }
 
 
-.logos{
+.logo .content{
     background-image: url("./public/assets/logo-fabio.png");
+    background-color: aqua;
 }
 
 .cards{
