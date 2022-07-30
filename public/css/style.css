@@ -15,7 +15,8 @@ html {
 html,
 body{
     background-image: url('background.jpg');       
-    /*height: 100vh;*/
+    background-size: 25%;
+    height: 100vh;
     font-family: "Source Sans Pro";        
 }
 
