@@ -72,7 +72,7 @@ main {
     margin-bottom: 80px;
 }
 
-.logo.content{
+.logo .content{
     background-image: url('/public/assets/logo-fabio.png');
 }
 
