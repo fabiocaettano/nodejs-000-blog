@@ -18,6 +18,7 @@ body{
     font-family: "Source Sans Pro";    
     background-image: url('background.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body{
