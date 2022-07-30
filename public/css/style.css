@@ -100,7 +100,7 @@ img {
 .card {
     display: flex;
     flex-direction: column;
-    background-color: #A9A9A9;
+    background-color: #ecf0f1;
     cursor: pointer;
     transition: all 0.3s ease 0s;  
 }
@@ -108,7 +108,7 @@ img {
 
 .content {
     margin: 20px;
-    background-color: white;
+    background-color: #ecf0f1;
   }
   
   .title {
@@ -128,7 +128,7 @@ img {
     font-size: 1.6rem;
     line-height: 2.6rem;
     font-weight: bold;
-    color: #ecf0f1;
+    color: #696969;
 }
 
 @media (max-width: 768px){
