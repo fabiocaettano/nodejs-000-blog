@@ -17,6 +17,7 @@ body{
     height: 100vh;
     font-family: "Source Sans Pro";    
     background-image: url('background.jpg');
+    background-repeat: no-repeat;
 }
 
 body{
