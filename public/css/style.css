@@ -108,11 +108,12 @@ img {
 
 .content {
     margin: 20px;
-    background-color: #A9A9A9;
+    background-color: white;
   }
   
   .title {
     margin-bottom: 20px;
+    background-color: #696969;
   }
   
   .info {
@@ -126,7 +127,7 @@ img {
 .text--medium {
     font-size: 1.6rem;
     line-height: 2.6rem;
-    font-weight: 400px;
+    font-weight: bold;
     color: #ecf0f1;
 }
 
